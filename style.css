@@ -283,7 +283,7 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .selection:hover{
-    background-image: url(/img/service-1.jpg);
+    background-image: url(./img/service-1.jpg);
     background-size: 400px;
     background-position:top;
     color: white;
@@ -319,7 +319,7 @@
     
 }
 .breeding:hover{
-    background-image: url(/img/service-2.jpg);
+    background-image: url(./img/service-2.jpg);
     background-size: 400px;
     background-position:top;
     color: #F7F7F7;
@@ -355,7 +355,7 @@
     bottom: 80px;
 }
 .care:hover{
-    background-image: url(/img/service-3.jpg);
+    background-image: url(./img/service-3.jpg);
     background-size: 400px;
     background-position:top;
     color: white !important;
