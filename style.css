@@ -191,7 +191,7 @@
 }
 /* --------------sell products----------- */
  .part-3{
-    background-image: url(/img/banner.jpg);
+    background-image: url(./img/banner.jpg);
     background-attachment: fixed;
     background-position: center;
  }
@@ -493,7 +493,7 @@
 }
 /* ------testimonal---- */
 .blink{
-    background-image: url(images.png);
+    background-image: url(./img/images.png);
     background-size: 100px;
     width: 250px;
     height:250px;
