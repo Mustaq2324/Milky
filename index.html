@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Milky</title>
+    <link rel="shortcut icon" href="./img/animal.png" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-light">
+      <div class="container-fluid d-flex align-items-center nav-con">
+        <a class="navbar-brand" href="#">Milky</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav d-lg-none">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <ul class="d-none d-lg-flex d-flex list-unstyled gap-5 me-4 nav-lap">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#service">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#products">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"
+              ><i
+                class="fa-solid fa-magnifying-glass"
+                style="color: #a5a6a7"
+              ></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- ----------------------------------carousel ----------------------- -->
+    <div
+      id="carouselExampleInterval"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="row">
+          <div class="col-12">
+            <div class="overlay small position-absolute text-light">
+              <h1 class="display-1">Welcome to our dairy farm</h1>
+              <p class="fs-2">The Farm of Dairy Products</p>
+              <button class="but mb-5 fs-5 p-lg-3">Explore More</button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="./img/carousel-1.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./img/carousel-2.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleInterval"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleInterval"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- ---------------------------years experience---------- -->
+    <div class="container mt-3" id="about">
+      <div class="row">
+        <div
+          class="col-12 col-md-6 d-flex align-items-center justify-content-center gap-1"
+        >
+          <div class="d-flex flex-column gap-2 exp">
+            <img src="/img/product-1.jpg" class="img-fluid rounded" alt="" />
+            <img
+              src="./img/service-2.jpg"
+              alt=""
+              class="img-25 img-fluid rounded"
+            />
+          </div>
+          <div class="d-flex flex-column gap-2 exp">
+            <img src="./img/service-1.jpg" alt="" class="img-fluid rounded" />
+            <img src="./img/service-3.jpg" alt="" class="img-fluid rounded" />
+          </div>
+        </div>
+        <div
+          class="col-12 col-md-6 d-lg-flex d-md-flex flex-column justify-content-center"
+        >
+          <div class="about d-flex mt-3">
+            <p>ABOUT US</p>
+            <div class="line ms-2">
+              <p
+                style="width: 30px; height: 2px; background-color: #5b8c51"
+              ></p>
+              <p
+                style="width: 70px; height: 2px; background-color: #5b8c51"
+              ></p>
+            </div>
+          </div>
+          <div class="p">
+            <h1 class="fs-2">Know About Our Dairy Farm & Our History</h1>
+            <p class="y">
+              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
+              diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
+              lorem sit clita duo justo magna dolore erat amet
+            </p>
+          </div>
+          <div class="services d-lg-flex d-md-flex">
+            <div class="services1">
+              <img src="/img/service.png" alt="" />
+              <h5>Dedicated Services</h5>
+              <p>Clita erat ipsum et lorem et sit, sed stet lorem sit clita</p>
+            </div>
+            <div class="services2">
+              <img src="/img/product.png" alt="" />
+              <h5>Organic Products</h5>
+              <p>Clita erat ipsum et lorem et sit, sed stet lorem sit clita</p>
+            </div>
+          </div>
+          <div class="but"><button class="">Explore More</button></div>
+        </div>
+      </div>
+    </div>
+    <!-- -------------------why us------- -->
+    <div class="container mt-lg-5 mt-md-5">
+      <div class="row">
+        <div
+          class="col-12 col-lg-6 col-md-6 d-lg-flex flex-column justify-content-center"
+        >
+          <div class="whyus d-flex mt-5">
+            <p>WHY US!</p>
+            <div class="line ms-3">
+              <p
+                style="width: 30px; height: 2px; background-color: #5b8c51"
+              ></p>
+              <p
+                style="width: 70px; height: 2px; background-color: #5b8c51"
+              ></p>
+            </div>
+          </div>
+          <div class="why-content d-flex flex-column pt-lg-4">
+            <h1>Few Reasons Why People Choosing Us!</h1>
+            <p>
+              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
+              diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
+              lorem sit clita duo justo magna dolore erat amet
+            </p>
+          </div>
+          <div class="tick">
+            <p>
+              <i class="fa-solid fa-check" style="color: #5b8c51"></i> Justo
+              magna erat amet
+            </p>
+            <p>
+              <i class="fa-solid fa-check" style="color: #5b8c51"></i> Aliqu
+              diam amet diam et eos
+            </p>
+            <p>
+              <i class="fa-solid fa-check" style="color: #5b8c51"></i> Clita
+              erat ipsum et lorem et sit
+            </p>
+          </div>
+          <div class="but mt-lg-4 mt-md-3">
+            <button>Explore More</button>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 col-md-6 mt-4 mt-lg-0 mt-md-0">
+          <div class="total">
+            <div
+              class="slot1 flex-lg-row flex-md-row d-flex flex-column align-items-center gap-3"
+            >
+              <div class="experience">
+                <img src="/img/experience.png" alt="" />
+                <h1>25</h1>
+                <p>Years Experience</p>
+              </div>
+              <div class="animal">
+                <img src="/img/animal.png" alt="" />
+                <h1>2619</h1>
+                <p>Total Animals</p>
+              </div>
+            </div>
+            <div
+              class="slot2 flex-lg-row flex-md-row d-flex flex-column align-items-center gap-3"
+            >
+              <div class="award">
+                <img src="/img/award.png" alt="" />
+                <h1>183</h1>
+                <p>Award Winning</p>
+              </div>
+              <div class="clients">
+                <img src="/img/client.png" alt="" />
+                <h1>51940</h1>
+                <p>Happy Clients</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------sell products------- -->
+    <div class="container-fluid part-3 mt-4">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <div
+            class="sale1 d-flex flex-column gap-3 align-items-center flex-lg-row flex-md-row mt-5"
+          >
+            <img src="/img/banner-1.jpg" alt="" />
+            <div
+              class="banner-text text-center text-center text-lg-start text-md-start mb-3"
+            >
+              <h2>We Sell Best Dairy Products</h2>
+              <p class="">
+                Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo
+                justo magna dolore erat amet
+              </p>
+              <div class="read">
+                <button>Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 mb-3">
+          <div
+            class="sale2 mt-5 d-flex flex-column gap-3 align-items-center flex-lg-row flex-md-row"
+          >
+            <img src="/img/banner-2.jpg" alt="" />
+            <div class="banner-text text-center text-lg-start text-md-start">
+              <h2>We Sell Best Dairy Products</h2>
+              <p class="">
+                Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo
+                justo magna dolore erat amet
+              </p>
+              <div class="read">
+                <button>Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- --------our services-------------->
+    <div class="our d-flex justify-content-center mt-5" id="service">
+      <div class="line" style="margin-right: 20px; align-items: flex-end">
+        <p style="width: 50px; height: 2px; background-color: #5b8c51"></p>
+        <p style="width: 70px; height: 2px; background-color: #5b8c51"></p>
+      </div>
+      <p
+        style="
+          color: #5b8c51;
+          font-size: 20px;
+          font-family: 'Open Sans', sans-serif;
+        "
+      >
+        OUR SERVICES
+      </p>
+      <div class="line" style="margin-left: 20px">
+        <p style="width: 50px; height: 2px; background-color: #5b8c51"></p>
+        <p style="width: 70px; height: 2px; background-color: #5b8c51"></p>
+      </div>
+    </div>
+    <div class="offer d-flex justify-content-center text-center">
+      <h1>Services That We Offer For Entrepreneurs</h1>
+    </div>
+    <!-- -------------------services--------->
+    <div class="container part4">
+      <div class="row">
+        <div
+          class="col-12 d col-md-6 col-lg-4 d-flex justify-content-center mb-5 mb-lg-0 mb-md-0"
+        >
+          <div class="selection">
+            <img src="/img/service-1.jpg" alt="" />
+            <h1>Best Animal Selection</h1>
+            <p>
+              Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem
+              sed diam stet diam sed stet.
+            </p>
+            <div class="chervon">
+              <i class="fa-solid fa-chevron-right"></i>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-12 col-md-6 col-lg-4 mt-3 mt-md-0 d-flex justify-content-center mb-5 mb-lg-0 mb-md-0"
+        >
+          <div class="breeding">
+            <img src="/img/service-2.jpg" alt="" />
+            <h1>Breeding & Veterinary</h1>
+            <p>
+              Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem
+              sed diam stet diam sed stet.
+            </p>
+            <div class="chervon">
+              <i class="fa-solid fa-chevron-right"></i>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-12 col-lg-4 mt-3 mt-lg-0 mt-md-5 d-flex justify-content-center mb-5 mb-lg-0 mb-md-0"
+        >
+          <div class="care">
+            <img src="/img/service-3.jpg" alt="" />
+            <h1>Care & Milking & Veterinary</h1>
+            <p>
+              Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem
+              sed diam stet diam sed stet.
+            </p>
+            <div class="chervon">
+              <i class="fa-solid fa-chevron-right"></i>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------gallery------ -->
+    <div class="container gallery mt-5 mb-5" id="gallery">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="i1 mt-4">
+            <img src="/img/gallery-5.jpg" class="img-fluid" alt="" />
+            <img src="/img/gallery-1.jpg" class="img-fluid" alt="" />
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="i2">
+            <img src="/img/gallery-2.jpg" class="img-fluid" alt="" />
+            <img src="/img/gallery-6.jpg" class="img-fluid" alt="" />
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 mt-4">
+          <div class="i3">
+            <img src="/img/gallery-7.jpg" class="img-fluid" alt="" />
+            <img src="/img/gallery-3.jpg" class="img-fluid" alt="" />
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="i4">
+            <img src="/img/gallery-4.jpg" class="img-fluid" alt="" />
+            <img src="/img/gallery-8.jpg" class="img-fluid" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ----products start--------- -->
+    <div class="our-services d-flex justify-content-center mt-5" id="products">
+      <div class="line" style="margin-right: 20px; align-items: flex-end">
+        <p style="width: 50px; height: 2px; background-color: #5b8c51"></p>
+        <p style="width: 70px; height: 2px; background-color: #5b8c51"></p>
+      </div>
+      <p
+        style="
+          color: #5b8c51;
+          font-size: 20px;
+          font-family: 'Open Sans', sans-serif;
+        "
+      >
+        OUR PRODUCTS
+      </p>
+      <div class="line" style="margin-left: 20px">
+        <p style="width: 50px; height: 2px; background-color: #5b8c51"></p>
+        <p style="width: 70px; height: 2px; background-color: #5b8c51"></p>
+      </div>
+    </div>
+    <div class="product d-flex justify-content-center text-center">
+      <h1>Our Dairy Products For Healthy Living</h1>
+    </div>
+    <!-- ------product------ -->
+    <div class="container mt-5">
+      <div class="row part6">
+        <div
+          class="col-12 col-md-6 col-lg-3 rounded mt-4 mt-lg-0 mt-md-0 d-flex justify-content-center"
+        >
+          <div class="milk">
+            <div class="ico">
+              <i class="fa-solid fa-link link"></i>
+              <i class="fa-solid fa-cart-shopping shop"></i>
+            </div>
+            <div class="im">
+              <img src="/img/product-1.jpg" class="img-fluid rounded" alt="" />
+            </div>
+            <h2>Pure Milk</h2>
+            <p>
+              <span>$19.00 </span
+              ><span style="text-decoration: line-through"> $29.00</span>
+            </p>
+          </div>
+        </div>
+        <div
+          class="col-12 col-md-6 col-lg-3 rounded mt-4 mt-lg-0 mt-md-4 d-flex justify-content-center"
+        >
+          <div class="milk">
+            <div class="ico">
+              <i class="fa-solid fa-link link"></i>
+              <i class="fa-solid fa-cart-shopping shop"></i>
+            </div>
+            <div class="im">
+              <img src="/img/product-2.jpg" class="img-fluid rounded" alt="" />
+            </div>
+            <h2>Fresh Meat</h2>
+            <p>
+              <span>$19.00 </span
+              ><span style="text-decoration: line-through"> $29.00</span>
+            </p>
+          </div>
+        </div>
+        <div
+          class="col-12 col-md-6 col-lg-3 rounded mt-4 mt-lg-0 mt-md-0 d-flex justify-content-center"
+        >
+          <div class="milk">
+            <div class="ico">
+              <i class="fa-solid fa-link link"></i>
+              <i class="fa-solid fa-cart-shopping shop"></i>
+            </div>
+            <div class="im">
+              <img src="/img/product-3.jpg" class="img-fluid rounded" alt="" />
+            </div>
+            <h2>Dairy Products</h2>
+            <p>
+              <span>$19.00 </span
+              ><span style="text-decoration: line-through"> $29.00</span>
+            </p>
+          </div>
+        </div>
+        <div
+          class="col-12 col-md-6 col-lg-3 rounded mt-4 mt-lg-0 mt-md-4 d-flex justify-content-center"
+        >
+          <div class="milk">
+            <div class="ico">
+              <i class="fa-solid fa-link link"></i>
+              <i class="fa-solid fa-cart-shopping shop"></i>
+            </div>
+            <div class="im">
+              <img src="/img/product-4.jpg" class="img-fluid rounded" alt="" />
+            </div>
+            <h2>Organic Food</h2>
+            <p>
+              <span>$19.00 </span
+              ><span style="text-decoration: line-through"> $29.00</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- --------teams start------------- -->
+    <div class="our-team d-flex justify-content-center mt-5" id="#team">
+      <div class="line" style="margin-right: 20px; align-items: flex-end">
+        <p style="width: 50px; height: 2px; background-color: #5b8c51"></p>
+        <p style="width: 70px; height: 2px; background-color: #5b8c51"></p>
+      </div>
+      <p
+        style="
+          color: #5b8c51;
+          font-size: 20px;
+          font-family: 'Open Sans', sans-serif;
+        "
+      >
+        OUR TEAM
+      </p>
+      <div class="line" style="margin-left: 20px">
+        <p style="width: 50px; height: 2px; background-color: #5b8c51"></p>
+        <p style="width: 70px; height: 2px; background-color: #5b8c51"></p>
+      </div>
+    </div>
+    <div class="product d-flex justify-content-center text-center">
+      <h1>Experienced Team Members</h1>
+    </div>
+    <!-- ----------team------------ -->
+    <div class="container mt-5 overflow-hidden">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div
+          class="col-12 col-md-6 col-lg-4 d-flex justify-content-center align-items-center"
+        >
+          <div class="card">
+            <img src="/img/team-1.jpg" class="img-fluid rounded" alt="" />
+            <h2>Adam Crew</h2>
+            <p>Founder</p>
+            <div class="social">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-12 col-md-6 col-lg-4 mt-5 mt-lg-0 mt-md-0 d-flex justify-content-center align-items-center"
+        >
+          <div class="card">
+            <img src="/img/team-2.jpg" class="img-fluid rounded" alt="" />
+            <h2>Doris Jordan</h2>
+            <p>Veterinarian</p>
+            <div class="social">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-12 col-md-6 col-lg-4 mt-5 mt-lg-0 d-flex justify-content-center align-items-center"
+        >
+          <div class="card">
+            <img src="/img/team-3.jpg" class="img-fluid rounded" alt="" />
+            <h2>Jack Dawson</h2>
+            <p>Farmer</p>
+            <div class="social">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- --------testimonial start-------->
+    <div class="our-team d-flex justify-content-center mt-5">
+      <div class="line" style="margin-right: 20px; align-items: flex-end">
+        <p style="width: 50px; height: 2px; background-color: #5b8c51"></p>
+        <p style="width: 70px; height: 2px; background-color: #5b8c51"></p>
+      </div>
+      <p
+        style="
+          color: #5b8c51;
+          font-size: 20px;
+          font-family: 'Open Sans', sans-serif;
+        "
+      >
+        TESTIMONIAL
+      </p>
+      <div class="line" style="margin-left: 20px">
+        <p style="width: 50px; height: 2px; background-color: #5b8c51"></p>
+        <p style="width: 70px; height: 2px; background-color: #5b8c51"></p>
+      </div>
+    </div>
+    <div class="product d-flex justify-content-center text-center">
+      <h1>What People Say About Our Dairy Farm</h1>
+    </div>
+    <!-- --------------------- -->
+    <div class="container">
+      <div class="row">
+        <div
+          class="col-12 col-md-6 col-lg-6 d-lg-flex justify-content-lg-center"
+        >
+          <div class="blink">
+            <img src="/img/testimonial-1.jpg" alt="" class="test1 img-fluid" />
+            <img src="/img/testimonial-2.jpg" alt="" class="test2 img-fluid" />
+            <img src="/img/testimonial-3.jpg" alt="" class="test3 img-fluid" />
+            <img src="/img/testimonial-4.jpg" alt="" class="test4 img-fluid" />
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-6">
+          <div class="client">
+            <img src="testimonial-3.jpg" alt="" />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint at
+              eius pariatur et facere est suscipit numquam placeat minima eaque
+              iste quae magni ex, voluptatum, voluptatem nemo saepe similique
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed,
+              ullam!
+            </p>
+            <h2>Client Name</h2>
+            <span style="color: #5b8c51; font-size: 20px">Profesion</span>
+            <div class="left">
+              <i class="fa-solid fa-chevron-left lef"></i>
+              <i class="fa-solid fa-chevron-right rig"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -----footer-------- -->
+    <div class="mt-5 overflow-x-hidden" id="contact">
+      <div class="footer row">
+        <div class="col-12 col-md-5 col-lg-3 ms-md-0 ms-lg-0">
+          <div class="office">
+            <h2 class="ms-4 ms-lg-4 ms-md-4">Our Office</h2>
+            <ul style="list-style: none">
+              <li>
+                <i class="fa-solid fa-location-dot" style="color: #f7f7f7"></i
+                ><span style="margin-left: 10px"></span>123 Street, New York,
+                USA
+              </li>
+              <li>
+                <i class="fa-solid fa-phone" style="color: #f7f7f7"></i
+                ><span style="margin-left: 10px">+012 345 67890</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-envelope" style="color: #f7f7f7"></i
+                ><span style="margin-left: 10px">info@example.com</span>
+              </li>
+            </ul>
+            <div class="footer-socail ms-4 ms-lg-4 ms-md-3">
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-youtube"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-5 col-lg-2 ms-5 ms-md-1 ms-lg-0">
+          <div class="hours">
+            <h2>Business Hours</h2>
+            <div class="time">
+              <span>Monday - Friday</span>
+              <p>09:00 am - 07:00 pm</p>
+              <span>Saturday</span>
+              <p>09:00 am - 12:00 pm</p>
+              <span>Sunday</span>
+              <p>Closed</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-5 col-lg-2 ms-5 me-md-5 ms-lg-0">
+          <div class="newsletter">
+            <h2>Newsletter</h2>
+            <p>Dolor amet sit justo amet elitr clita ipsum elitr est</p>
+            <div class="signup">
+              <input type="email" placeholder="Your email" />
+              <button>signup</button>
+            </div>
+          </div>
+        </div>
+        <hr class="copy" />
+        <p class="text-white text-center">Copyright@2023 | Design By  <span class="text-info" >Musthafa</span></p>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
